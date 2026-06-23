@@ -8,9 +8,9 @@ class Student:
     def set_average_score(self, new_score):
         self.average_score = new_score
 
-Jane_Doe = Student(name='Jane', surname='Doe', age=26, average_score=0)
-print(Jane_Doe.average_score)
+jane_doe = Student(name='Jane', surname='Doe', age=26, average_score=0)
+print(jane_doe.average_score)
 
-Jane_Doe.set_average_score(100)
-print(Jane_Doe.average_score)
+jane_doe.set_average_score(100)
+print(jane_doe.average_score)
 
