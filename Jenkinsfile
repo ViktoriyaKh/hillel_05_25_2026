@@ -19,7 +19,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                bat '.venv\\Scripts\\python.exe -m pytest test_registration.py --junitxml=test-results.xml'
+                bat '.venv\\Scripts\\python.exe -m pytest core/tests/ui/test_registration.py --junitxml=test-results.xml'
             }
         }
 
