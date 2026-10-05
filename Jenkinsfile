@@ -11,7 +11,7 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
-                bat 'python -m venv .venv'
+                bat 'C:\\Users\\m-gio\\AppData\\Local\\Python\\bin\\python.exe -m venv .venv'
                 bat '.venv\\Scripts\\python.exe -m pip install -r requirements.txt'
                 bat '.venv\\Scripts\\python.exe -m playwright install'
             }
